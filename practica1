@@ -45,11 +45,13 @@ public class Practica1 {
         
         }
         
-        System.out.println("Su nivel de peso es:" +NivelDePeso(calcularIMC(peso,estatura)));
+        for(double i = 0; i <= 29; i++){
+        
+        System.out.println("Su nivel de peso es:" +NivelDePeso(calcularIMC(peso[i],[i])));
         
         
         
-        
+        }
          
         
         
