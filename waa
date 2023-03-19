@@ -37,14 +37,14 @@ public class Practica1 {
         for(double i = 0; i <= 29; i++){
         
         System.out.println("ingrese peso en (kg): ");
-        resp = lector.nextDouble();
+        peso = lector.nextDouble();
         
         System.out.println("ingrese estatura en (cm): ");
-        resp = lector.nextDouble();
+        estatura = lector.nextDouble();
         
         System.out.println("Su nivel de peso es:" +NivelDePeso(calcularIMC(peso,estatura)));
         
-        Array[i] = resp;
+        
         
         
         }
