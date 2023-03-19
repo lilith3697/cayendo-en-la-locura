@@ -38,10 +38,10 @@ public class Practica1 {
             
         
         System.out.println("ingrese peso en (kg): ");
-        peso = lector.nextDouble();
+        peso[i]= lector.nextDouble();
         
         System.out.println("ingrese estatura en (cm): ");
-        estatura = lector.nextDouble();
+        estatura[i]= lector.nextDouble();
         
         }
         
